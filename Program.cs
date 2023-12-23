@@ -12,6 +12,7 @@
 // int input = Convert.ToInt32(Console.ReadLine());
 //  Console.WriteLine(input * input);
 
+ /*
  Console.Write("Введите первое число: ");
  int firstNumber = Convert.ToInt32(Console.ReadLine());
 
@@ -26,3 +27,16 @@
 else {
     Console.WriteLine("Нет");
 }
+*/
+Console.Write ("Введите число N: ");
+int N = Convert.ToInt32(Console.ReadLine());
+// N = 4
+int negativeN = -N;
+// -N = -4
+
+while (negativeN <= N){
+    Console.Write(negativeN + " ");
+    negativeN++; // negativeN = negativeN + 1;
+}
+
+Console.WriteLine();
